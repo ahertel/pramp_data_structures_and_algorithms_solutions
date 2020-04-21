@@ -1,3 +1,4 @@
+# PROBLEM
 '''
 A Toeplitz matrix is a matrix where every left-to-right-descending diagonal has the same element. Given a non-empty matrix arr, write a function that returns true if and only if it is a Toeplitz matrix. The matrix can be any dimensions, not necessarily square.
 
@@ -22,6 +23,10 @@ Constraints:
 0 ≤ arr[i][j] ≤ 20
 [output] boolean
 '''
+
+# BIG-O
+# T: O(N), S: O(1)
+
 def isToeplitz(arr):
 	cols = len(arr[0])
 	rows = len(arr)
