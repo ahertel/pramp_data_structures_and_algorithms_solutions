@@ -56,7 +56,8 @@ def isToeplitz(arr):
 			c += 1
 		
 		r_s -= 1 # move up the start row along the left edge
-		# if arrived at top of left edge, move start position one column to the right
+		# if arrived at top of left edge we can checked all diagonals starting on the left edge
+		# move start position one column to the right to begin checking all diagonals starting on the top edge
 		if r_s == -1:
 			r_s = 0
 			c_s +=1 # move over start column

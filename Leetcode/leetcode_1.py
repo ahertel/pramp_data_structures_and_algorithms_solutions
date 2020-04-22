@@ -26,6 +26,10 @@ def getTargetPair1(nums, target):
 		else:
 			return [match_idx, i]
 
+'''
+given an array sorted in ascending order, we start by adding two pointers, one at the smallest(first) value and one at the largest(last) value.
+We will then sum the values at our 'pointers' move inwards towards the center of the arrayThen we compare the sum to the target. if it exceeds the target, then we  sum the smallest value 
+'''
 #### Solution 2 given ascending sorted input####
 # time = O(N) bc we have loop through array once
 # space = O(1) since no extra data structure is used and at most one call is on the stack
